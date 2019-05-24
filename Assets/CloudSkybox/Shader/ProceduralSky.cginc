@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+
 #include "UnityCG.cginc"
 #include "Lighting.cginc"
 
@@ -76,7 +78,7 @@ void vert_sky(float3 vertex, inout v2f OUT)
     float3 cameraPos = float3(0,kInnerRadius + kCameraHeight,0); 	// The camera's current position
 
     // Get the ray from the camera to the vertex and its length (which is the far point of the ray passing through the atmosphere)
-    float3 eyeRay = normalize(mul((float3x3)_Object2World, vertex));
+    float3 eyeRay = normalize(mul((float3x3)unity_ObjectToWorld, vertex));
 
     float far = 0.0;
     half3 cIn, cOut;
