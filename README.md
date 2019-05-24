@@ -1,7 +1,10 @@
 Made some edits fixing a few issues I had.  Clouds can now be tinted (shadow and highlight different colors) and also fixed the issue of ugly black shadows when the sun is rotated below the horizon.
 
 Here's some sexy red clouds.
-![GIF](https://media.giphy.com/media/YnGgDTphQgyoxRQV72/giphy.gif)
+
+![Img](https://i.imgur.com/6GtJ8Ve.png)
+
+GIF: https://media.giphy.com/media/J5GGVqtk5D9ExmdqD2/giphy.gif
 
 
 CloudSkybox
